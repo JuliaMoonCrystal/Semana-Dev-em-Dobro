@@ -62,6 +62,7 @@ function alterarImagemPersonagemSelecionado(personagem) {
     // passo 2 - alterar a imagem do personagem grande
     const idPersonagem = personagem.attributes.id.value;
     imagemPersonagemGrande.src = `./src/imagens/card-${idPersonagem}.png`;
+    console.log(imagemPersonagemGrande);
 }
 
 function removerSelecaoDoPersonagem() {
